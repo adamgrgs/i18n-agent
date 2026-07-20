@@ -25,8 +25,8 @@ Not a SaaS product. Not a hosted TMS. No paid API required for the core offline 
 ### Cursor
 
 ```bash
-git clone <REPO_URL> .cursor/skills/multilingual-i18n-seo
-# or: git submodule add <REPO_URL> .cursor/skills/multilingual-i18n-seo
+git clone https://github.com/adamgrgs/i18n-agent.git .cursor/skills/multilingual-i18n-seo
+# or: git submodule add https://github.com/adamgrgs/i18n-agent.git .cursor/skills/multilingual-i18n-seo
 ```
 
 Point project rules / `AGENTS.md` at `.cursor/skills/multilingual-i18n-seo/SKILL.md`.  
@@ -36,7 +36,7 @@ Details: [`docs/install-cursor.md`](docs/install-cursor.md)
 
 ```bash
 mkdir -p .claude/skills
-git clone <REPO_URL> .claude/skills/multilingual-i18n-seo
+git clone https://github.com/adamgrgs/i18n-agent.git .claude/skills/multilingual-i18n-seo
 ```
 
 Add a pointer in `CLAUDE.md`. Details: [`docs/install-claude-code.md`](docs/install-claude-code.md)

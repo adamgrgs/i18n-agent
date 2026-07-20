@@ -9,7 +9,7 @@ Works for Windsurf, Codex, Continue, Aider, OpenCode, or any agent that can read
 3. Prefer `@`-mention / file attach / “follow this skill” phrasing.
 
 ```bash
-git clone <REPO_URL> skills/multilingual-i18n-seo
+git clone https://github.com/adamgrgs/i18n-agent.git skills/multilingual-i18n-seo
 ```
 
 Root `AGENTS.md` (project):

@@ -6,7 +6,7 @@ Copy or submodule this repository into your project:
 
 ```bash
 # submodule
-git submodule add <REPO_URL> .cursor/skills/multilingual-i18n-seo
+git submodule add https://github.com/adamgrgs/i18n-agent.git .cursor/skills/multilingual-i18n-seo
 
 # or copy
 cp -R multilingual-i18n-seo-skill .cursor/skills/multilingual-i18n-seo
