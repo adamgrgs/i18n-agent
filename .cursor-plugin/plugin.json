@@ -1,0 +1,17 @@
+{
+  "name": "multilingual-i18n-seo",
+  "version": "1.0.0",
+  "description": "Multilingual i18n + SEO skill: audit, plan, localize, verify.",
+  "author": {
+    "name": "Multilingual i18n SEO Skill Contributors"
+  },
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "multilingual-i18n-seo",
+      "path": "../SKILL.md",
+      "manifest": "../skill.json"
+    }
+  ],
+  "keywords": ["i18n", "l10n", "seo", "hreflang", "localization"]
+}

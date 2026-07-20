@@ -1,0 +1,39 @@
+{
+  "name": "multilingual-i18n-seo-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Installable AI skill for multilingual i18n + SEO audit, localization, and verification.",
+  "license": "MIT",
+  "scripts": {
+    "check": "python3 scripts/check_i18n_seo.py --root tests/fixtures/html/pass --registry templates/locale-registry.example.json --sitemap tests/fixtures/sitemaps/sitemap-pass.xml",
+    "validate:registry": "python3 scripts/validate_locale_registry.py templates/locale-registry.example.json",
+    "validate:hreflang": "python3 scripts/validate_hreflang.py --root tests/fixtures/html/pass --registry templates/locale-registry.example.json",
+    "test": "python3 -m pytest tests/ -q",
+    "test:unittest": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "SKILL.md",
+    "AGENTS.md",
+    "skill.json",
+    "docs/",
+    "prompts/",
+    "checklists/",
+    "schemas/",
+    "templates/",
+    "scripts/",
+    "examples/",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "i18n",
+    "seo",
+    "hreflang",
+    "localization",
+    "claude-code",
+    "cursor-skill"
+  ]
+}
